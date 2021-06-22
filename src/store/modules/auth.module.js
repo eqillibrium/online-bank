@@ -1,6 +1,6 @@
 const TOKEN_KEY = 'jwt-token'
-const url = 'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key='
-const key = 'AIzaSyBDoC09i9qLNN2Jk0WwPBo12VTn4siTtvQ'
+const url = ''
+const key = ''
 import axios from 'axios'
 import Error from '../../utils/Error'
 
