@@ -1,0 +1,24 @@
+<template>
+  <div class="question" @click="isOpen = !isOpen">
+    <div class="question-title">{{question.title}}</div>
+    <div class="question-body" v-if="isOpen">{{question.body}}</div>
+  </div>
+</template>
+
+<script>
+import {ref} from 'vue'
+export default {
+  props: {
+    question: {
+      type: Object
+    }
+  },
+  setup () {
+    return {isOpen: ref(false)}
+  }
+}
+</script>
+
+<style scoped>
+
+</style>
